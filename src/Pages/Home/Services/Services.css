@@ -1,0 +1,8 @@
+.services{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.services{
+    background-image: url("../../../images/image\ 7.png");
+}
