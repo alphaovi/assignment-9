@@ -1,6 +1,8 @@
 #cards{
-    background: none;
-    
+    background: none;    
+}
+.card{
+    border-width: 0px;
 }
 .service-image {
     float: left;
