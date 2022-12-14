@@ -10,6 +10,7 @@ import NotFound from './Pages/Shared/NotFound/NotFound';
 import Register from './Pages/Shared/Login/Register/Register';
 import CheckOut from './Pages/CheckOut/CheckOut/CheckOut';
 import RequireAuth from './Pages/Shared/Login/RequireAuth/RequireAuth';
+import ConfirmTicket from './Pages/CheckOut/ConfirmTicket/ConfirmTicket';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           </RequireAuth>
         }></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
+        <Route path="/confirmticket" element={<ConfirmTicket></ConfirmTicket>}></Route>
       </Routes>
       <Footer></Footer>
     </div >
